@@ -1,6 +1,6 @@
-'use client'; // For client-side rendering
+'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Categoryitems({ path, activePath, title, isActive, onClick }) {
   return (
