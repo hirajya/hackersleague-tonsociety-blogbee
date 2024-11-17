@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link'; // Use Link from Next.js
-import Categoryitems from './Categoryitems';
+import Categoryitems from './Categoryitems'; // Ensure you have Categoryitems component
 
 export default function Categorybar() {
   const [activeItem, setActiveItem] = useState(0); // Set "Home" as default active item (index 0)
