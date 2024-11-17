@@ -20,7 +20,7 @@ const SubscriptionCard = ({
             {title}
           </div>
           <img
-            className="absolute top-8 right-0 w-[89px] h-[50px]"
+            className="absolute top-8 right-0 w-[89px] h-[50px] mr-5"
             src={cardImage}
             alt="Card Thumbnail"
           />
@@ -49,7 +49,7 @@ const SubscriptionCard = ({
           </div>
 
          {/* Date Image */}
-          <div className="absolute bottom-0 right-0 flex items-center space-x-2">
+          <div className="absolute bottom-0 right-0 flex items-center space-x-2 mr-4">
             <span className="text-[#888888] text-sm font-normal">{date}</span>
             <img
               className="w-[17px] h-[17px]"

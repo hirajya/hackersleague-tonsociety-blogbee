@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; // Use Link from Next.js
 import Categoryitems from './Categoryitems';
 
 export default function Categorybar() {
-  const [activeItem, setActiveItem] = useState(null); // Keep track of the active item
+  const [activeItem, setActiveItem] = useState(0); // Set "Home" as default active item (index 0)
 
   // Function to set the active item
   const handleItemClick = (itemIndex) => {
@@ -25,7 +25,7 @@ export default function Categorybar() {
               path="/HomeIcons.svg"
               activePath="/Home1.svg"
               title="Home"
-              isActive={activeItem === 0}
+              isActive={activeItem === 0} // "Home" is active by default
               onClick={() => handleItemClick(0)}
             />
           </Link>

@@ -6,7 +6,7 @@ import SubscriptionCard from "@/components/SubscriptionCard";
 export default function Page() {
   return (
     <div className="px-4 sm:px-6 lg:px-10"> {/* Adjust padding for responsiveness */}
-      <h1 className="text-2xl font-black mb-4 text-[#ffc83d] text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-['DM Sans'] mt-10">
+      <h1 className="text-2xl font-black mb-4 text-[#ffc83d] text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-['DM Sans']">
         Home
       </h1>
       <Navbar />
